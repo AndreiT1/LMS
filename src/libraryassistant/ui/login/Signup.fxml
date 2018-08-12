@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="336.0" prefWidth="445.0" stylesheets="@signup.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryassistant.ui.login.SignupController">
+   <children>
+      <Pane prefHeight="316.0" prefWidth="445.0" style="-fx-background-color: #263238;" stylesheets="@signup.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Text fill="WHITE" layoutX="59.0" layoutY="94.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USERNAME :" wrappingWidth="77.13671875">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Text>
+            <Text fill="WHITE" layoutX="59.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="EMAIL:" wrappingWidth="77.13671875">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Text>
+            <Text fill="WHITE" layoutX="59.0" layoutY="166.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PASSWORD :" wrappingWidth="77.13671875">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Text>
+            <Text fill="WHITE" layoutX="59.0" layoutY="190.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CONFIRM PASSWORD :" wrappingWidth="115.13672079145908">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font></Text>
+            <JFXButton layoutX="164.0" layoutY="249.0" onAction="#signUP" prefHeight="35.0" prefWidth="97.0" style="-fx-background-color: #0277BD;" stylesheets="@signup.css" text="Signup">
+               <effect>
+                  <DropShadow />
+               </effect></JFXButton>
+            <JFXTextField fx:id="userName" layoutX="181.0" layoutY="67.0" prefHeight="25.0" prefWidth="169.0" styleClass="text-white" stylesheets="@login.css" unFocusColor="WHITE" />
+            <JFXTextField fx:id="email" layoutX="181.0" layoutY="105.0" prefHeight="25.0" prefWidth="169.0" styleClass="text-white" stylesheets="@login.css" unFocusColor="WHITE" />
+            <JFXPasswordField fx:id="password" layoutX="181.0" layoutY="139.0" prefHeight="25.0" prefWidth="169.0" styleClass="text-white" stylesheets="@login.css" unFocusColor="WHITE" />
+            <JFXPasswordField fx:id="confirmPassword" layoutX="181.0" layoutY="182.0" prefHeight="25.0" prefWidth="169.0" styleClass="text-white" stylesheets="@login.css" unFocusColor="WHITE" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

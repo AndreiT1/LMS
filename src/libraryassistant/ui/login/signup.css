@@ -1,0 +1,12 @@
+.anchor-pane{
+    -fx-background-image: url("../icons/backround.jpg");
+    -fx-background-repeat: stretch;
+    -fx-background-position: center center;
+}
+.jfx-button{
+    -fx-background-color: #1976D2;
+    -fx-text-fill: white;
+}
+.jfx-button:hover{
+    -fx-background-color: #BDBDBD;
+}

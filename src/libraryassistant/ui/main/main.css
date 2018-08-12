@@ -1,0 +1,22 @@
+
+.mainFxmlClass {
+
+}
+.setup-button{
+    -fx-background-color:#424242;
+    -fx-text-fill: white;
+}
+.setup-button:hover{
+    -fx-background-color: #757575;
+}
+.my-text {
+    -fx-text-fill: white;
+    
+    
+    -fx-background-color : #424242;
+    -fx-alignment: center;
+    
+}
+.info-text{
+    -fx-alignment :CENTER_RIGHT;
+}

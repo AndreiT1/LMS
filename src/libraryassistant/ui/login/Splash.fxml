@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="397.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="libraryassistant.ui.login.SplashController">
+   <children>
+      <Pane prefHeight="200.0" prefWidth="200.0" />
+      <ImageView fitHeight="400.0" fitWidth="822.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/backround.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="WHITE" strokeType="OUTSIDE" strokeWidth="0.0" text="WELCOME" textAlignment="CENTER" wrappingWidth="197.13671875">
+         <font>
+            <Font size="34.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+   </children>
+</StackPane>
