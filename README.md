@@ -1,4 +1,4 @@
-# Library Management Software developed in JavaFX + mySql
+# Library Management System developed in JavaFX + mySql
 LMS is is a resource planning system for a library, used to track items owned, orders made, and patrons who have borrowed.
 
  ## ![](screenshots/lms1.png)
